@@ -1,0 +1,14 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.watermark {
+    position: absolute;
+    bottom: 10px; /* Adjust the position of the watermark */
+    right: 10px; /* Adjust the position of the watermark */
+    color: white; /* Text color of the watermark */
+    font-size: 16px; /* Font size of the watermark */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+    padding: 5px; /* Padding around the text */
+}

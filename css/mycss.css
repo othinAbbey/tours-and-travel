@@ -1,0 +1,26 @@
+.home {
+    position: relative;
+}
+
+.watermark {
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color of the watermark */
+    font-size: 16px; /* Font size of the watermark */
+    text-align: center; /* Center the text horizontally */
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center horizontally within the flex container */
+}
+
+.watermark span {
+    font-size: 100px;
+    font-weight: bold;
+    color: white; /* Adjust the color as needed */
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
